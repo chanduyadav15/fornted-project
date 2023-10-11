@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+/*common styles for all screens */
+.btn-custom {
+  border: none;
+  background: none;
+}
+.drop-card{
+  width: 70% !important;
+  justify-content: space-between;
+}
+
+/* Set the color of the xmark icon to white */
+.btn-custom i {
+  color: white;
+  font-size: 30px;
+}
+.offcanvas-body {
+  background-color: rgb(2, 2, 22);
+  color: #fff;
+}
+.offcanvas-header {
+  background-color: rgb(2, 2, 22);
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+}
+.nav-link {
+  color: black;
+  font-family: "inter-tight", sans-serif;
+}
+.nav-link,
+.dropdown-toggle {
+  padding: 0px 30px 0px 0px;
+}
+.dropdown-toggle::after {
+  content: none !important;
+}
+/*common styles for all screens navbar dropdown action names design */
+.drop-names {
+  color: black !important;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+  margin-right: 3px;
+  font-family: "inter-tight", sans-serif;
+}
+
+.drop-names:hover {
+  color: #086ad8 !important;
+}
+.navbar-brand {
+  width: 130px;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+a {
+  color: black;
+  transition: color 0.3s;
+}
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.dropdown-menu {
+  padding-left: 10px; /* Adjust the padding as needed */
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+}
+/* Style for the dropdown and nav-item */
+.navbar-nav .nav-item,
+.navbar-nav .dropdown:hover {
+  background-color: transparent; /* Set the background to transparent */
+}
+.nav-tab {
+  margin-left: 30px;
+  padding: 10px 80px 0px 80px;
+}
+/* Style for the dropdown link text */
+.navbar-nav .dropdown .nav-link,
+.navbar-nav .nav-item .nav-link {
+  color: black; /* Set the default text color */
+  transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Style for the dropdown link text on hover */
+.navbar-nav .dropdown:hover .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: blue; /* Set the hover text color to blue */
+}
+
+.start-button {
+  display: inline-block;
+  overflow: hidden;
+  transform: perspective(0) translateZ(0);
+  background: linear-gradient(195deg, #086ad8 0%, #42b9ff 100%);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  border-color: transparent;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  padding: 12px 50px;
+  border: 0;
+  border-style: solid;
+  box-shadow: none;
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+}
+.start-read-button {
+  display: inline-block;
+  overflow: hidden;
+  transform: perspective(0) translateZ(0);
+  background: linear-gradient(195deg, #086ad8 0%, #42b9ff 100%);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  border-color: transparent;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  padding: 12px 50px;
+  border: 0;
+  border-style: solid;
+  box-shadow: none;
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+}
+.fa,
+.fa-magnifying-glass {
+  font-size: 15px;
+  color: #086ad8;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-bottom: 0px !important;
+}
+.vr {
+  margin-top: 10px;
+  height: 25px;
+  margin-right: 20px;
+}
+.fa .fa-cart-shopping {
+  font-size: 15px;
+  color: #086ad8;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-bottom: 0px !important;
+}
+/*main baxckground image of the page*/
+.upper-image {
+  background-image: url("	https://thepixelcurve.com/html/techwix/techwix/assets/images/hero-bg3.jpg");
+  width: 100%;
+  padding: 300px 0px 300px 30px;
+  background-repeat: no-repeat;
+  overflow-x:auto;
+}
+.lower-image {
+  background-image: url("https://thepixelcurve.com/html/techwix/techwix/assets/images/bg/service-bg3.jpg");
+  width: 100%;
+  height: 400px;
+}
+.card {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  text-align: center;
+}
+.main-heading {
+  font-size: 70px;
+  line-height: 78px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.sub-heading {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url("left-image.jpg") left, url("right-image.jpg") right;
+  background-size: 50% 100%, 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.techwix-service-section-03 .service-item-03 {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px 45px 35px;
+  margin-top: 30px;
+  position: relative;
+}
+.title {
+  font-size: 18px;
+  font-family: "inter-tight", sans-serif;
+  font-weight: 800;
+  padding-top: 25px;
+  
+}
+.service-content p {
+  font-size: 13px;
+  line-height: 37px;
+  padding-top: 20px;
+  font-family: "Jost", sans-serif;
+  color:#6b6868;
+}
+.service-item-03 {
+  border-radius: 10px;
+  padding: 25px 45px 50px;
+  margin-top: 30px;
+  position: relative;
+  background-color: hsl(210, 100%, 99%);
+}
+.read-more {
+  font-size: 12px;
+  color: #333333;
+  font-family: "Jost", sans-serif;
+}
+.read-more:hover {
+  color: #0d6efd;
+}
+.read-more .fas {
+  height: 40px;
+  width: 40px;
+  background-color: #f3f3f3e7;
+  border-radius: 50%;
+  display: inline-block;
+  border-width: 0px;
+  padding: 15px;
+  color: #0d6efd;
+}
+.service-img img{
+  width: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .start-button {
+    display: none;
+  }
+  .upper-image {
+    background-image: url("	https://thepixelcurve.com/html/techwix/techwix/assets/images/hero-bg3.jpg");
+    width: 100%;
+    padding: 300px 0px 370px 50px !important;
+    background-repeat: no-repeat;
+  }
+  .lower-image {
+    background-image: url("https://thepixelcurve.com/html/techwix/techwix/assets/images/bg/service-bg3.jpg");
+    width: 100%;
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .upper-image {
+    background-image: url("	https://thepixelcurve.com/html/techwix/techwix/assets/images/hero-bg3.jpg");
+    width: 100%;
+    padding: 300px 0px 250px 30px;
+    background-repeat: no-repeat;
+  }
+  .navbar-toggler {
+    border: none !important;
+    outline: none; /* Remove outline when focused (optional) */
+    padding: 0px !important;
+  }
+  .navbar-toggler .fa-bars {
+    color: #086ad8;
+    font-size: 25px;
+    position: absolute;
+    top: 24px;
+    right: 0px;
+    margin: 0px 10px 0pc 0px !important;
+  }
+  .nav-list {
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  .dropbtn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .start-button {
+    display: none;
+  }
+  .fa,
+  .fa-magnifying-glass {
+    font-size: 15px;
+    color: #086ad8;
+    margin-bottom: 0px !important;
+  }
+  .fa .fa-cart-shopping {
+    font-size: 15px;
+    color: #086ad8;
+
+    margin-bottom: 0px !important;
+  }
+
+  .vr {
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .d-flex {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+  }
+  .lower-image {
+    background-image: url("https://thepixelcurve.com/html/techwix/techwix/assets/images/bg/service-bg3.jpg");
+    width: 100%;
+    height: 600px;
+  }
+  .drop-names {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 15px;
+    margin-right: 3px;
+    font-family: "inter-tight", sans-serif;
+  }
+  .drop-names:hover{
+    color: #0d6efd;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nav-tab {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .lower-image {
+    background-image: url("https://thepixelcurve.com/html/techwix/techwix/assets/images/bg/service-bg3.jpg");
+    width: 100%;
+    height: 1200px;
+  }
+  .upper-image {
+    background-image: url("	https://thepixelcurve.com/html/techwix/techwix/assets/images/hero-bg3.jpg");
+    width: 100%;
+    padding: 300px 0px 200px 50px !important;
+    background-repeat: no-repeat;
+  }
+  .lower-image {
+    background-image: url("https://thepixelcurve.com/html/techwix/techwix/assets/images/bg/service-bg3.jpg");
+    width: 100%;
+    height: 600px;
+  }
+  .main-heading {
+    font-size: 20px;
+    line-height: 78px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  .sub-heading {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .upper-image {
+    background-image: url("	https://thepixelcurve.com/html/techwix/techwix/assets/images/hero-bg3.jpg");
+    width: 100%;
+    padding: 30px 0px 20px 15px;
+    background-repeat: no-repeat;
+  }
+  .lower-image {
+    background-image: url("https://thepixelcurve.com/html/techwix/techwix/assets/images/bg/service-bg3.jpg");
+    width: 100%;
+    height: 1800px;
+  }
+  .sub-heading {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+  .main-heading {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  .row {
+    margin-top: 321px;
+  }
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--link for css -->
+    <link rel="stylesheet" href="style.css" />
+    <!--css bootstrap cdn link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <!--bootstrap cdn link-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <!--fontsome link cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <title>techwix page</title>
+  </head>
+  <body>
+    <!---navbar SFH-->
+    <div class="nav-tab">
+      <nav
+        class="navbar navbar-expand-lg navbar-white bg-white fixed-top px-5">
+        <a class="navbar-brand">
+          <img src="techwix images/logo.png" alt="Logo" style="width: 130px" />
+        </a>
+        <div class="d-md-none">
+          <div class="d-flex">
+            <i class="fa fa-cart-shopping"></i>
+            <div class="vr" style="width: 1px !important"></div>
+            <div>
+              <i class="fa fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+        <div class="d-lg-none">
+          <div class="d-lg-none">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasWithBothOptions"
+              aria-controls="offcanvasWithBothOptions">
+              <span class="fa fa-bars"></span>
+            </button>
+  
+            <div
+              class="offcanvas offcanvas-start"
+              data-bs-scroll="true"
+              tabindex="-1"
+              id="offcanvasWithBothOptions"
+              aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <img
+                  class="offcanvas-title"
+                  id="offcanvasWithBothOptionsLabel"
+                  src="techwix images/logo-white.png" />
+                  <button
+                  type="button"
+                  class="btn btn-custom" 
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+              <div class="offcanvas-body ">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown mx-0.5">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <span class="drop-names" style="color:#ffff !important"
+                        >Home<i class="fa-sharp fa-solid fa-angle-down mx-2"></i
+                      ></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <!--nav second dropdown -->
+                  <li class="nav-item mx-0.5">
+                    <a class="nav-link" aria-current="page" href="#"
+                      ><span class="drop-names">About Us</span></a
+                    >
+                  </li>
+                  <!--nav third dropdown -->
+                  <li class="nav-item dropdown mx-0.5">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <span class="drop-names"
+                        >Pages<i class="fa-sharp fa-solid fa-angle-down mx-2"></i
+                      ></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <!--nav fifth name-->
+                  <li class="nav-item mx-0.5">
+                    <a class="nav-link" href="#"
+                      ><span class="drop-names"
+                        >Blog<i
+                          class="fa-sharp fa-solid fa-angle-down mx-2"></i></span
+                    ></a>
+                  </li>
+                  <!--nav sixth dropdown-->
+                  <li class="nav-item mx-0.5">
+                    <a class="nav-link" href="#"
+                      ><span class="drop-names">Contact</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown mx-0.5">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="drop-names" style="color: #086ad8 !important"
+                  >Home<i class="fa-sharp fa-solid fa-angle-down mx-2"></i
+                ></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <!--nav second dropdown -->
+            <li class="nav-item mx-0.5">
+              <a class="nav-link" aria-current="page" href="#"
+                ><span class="drop-names">About Us</span></a
+              >
+            </li>
+            <!--nav third dropdown -->
+            <li class="nav-item dropdown mx-0.5">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="drop-names"
+                  >Pages<i class="fa-sharp fa-solid fa-angle-down mx-2"></i
+                ></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <!--nav fifth name-->
+            <li class="nav-item mx-0.5">
+              <a class="nav-link" href="#"
+                ><span class="drop-names"
+                  >Blog<i
+                    class="fa-sharp fa-solid fa-angle-down mx-2"></i></span
+              ></a>
+            </li>
+            <!--nav sixth dropdown-->
+            <li class="nav-item mx-0.5">
+              <a class="nav-link" href="#"
+                ><span class="drop-names">Contact</span></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-md-block">
+          <div class="d-flex">
+            <i class="fa fa-cart-shopping"></i>
+            <div class="vr" style="width: 1px !important"></div>
+            <div>
+              <i class="fa fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+        <button class="start-button">Get started</button>
+      </nav>
+    </div>
+    <div>
+      <!-- Content goes here -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <!--end of the nav bar section-->
+      <!--main image and top card start from here-->
+      <div class="upper-image">
+        <div class="col-md-6">
+          <h5 class="sub-heading p-3 mx-3">TECHNOLOGY RELETED CONSULTANCY</h5>
+          <h1 class="main-heading p-3 mx-3">We transform ideas into technology</h1>
+          <h5 class="sub-heading p-3 mx-3">
+            We provide the most responsive and functional IT design for
+            companies and businesses worldwide.
+          </h5>
+          <button class="start-read-button mx-4">Read More</button>
+        </div>
+      </div>
+      <div class="lower-image"></div>
+      <div class="row mx-2 mx-md-5" style="position: absolute; top: 866px">
+        <div class="col-xl-3 col-md-6">
+          <!-- Service Item Start -->
+          <div class="service-item-03">
+            <div class="service-img">
+              <img src="techwix images/font 1.png" alt="" />
+            </div>
+            <div class="service-content">
+              <h3 class="title col-md-6">Infrastructure Technolog</h3>
+              <p>
+                Accelerate innovation with world-class tech teams We’ll match
+                you to an entire remote team of incredible freelance talent.
+              </p>
+              <div class="read-more"><i class="fas fa-plus"></i> Read More</div>
+            </div>
+          </div>
+          <!-- Service Item End -->
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <!-- Service Item Start -->
+          <div class="service-item-03">
+            <div class="service-img">
+              <img src="techwix images/font 2.png" alt="" />
+            </div>
+            <div class="service-content">
+              <h3 class="title col-md-8">IT Consultancy &amp; solutio</h3>
+              <p>
+                Accelerate innovation with world-class tech teams We’ll match
+                you to an entire remote team of incredible freelance talent.
+              </p>
+              <div class="read-more"><i class="fas fa-plus"></i> Read More</div>
+            </div>
+          </div>
+          <!-- Service Item End -->
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <!-- Service Item Start -->
+          <div class="service-item-03">
+            <div class="service-img">
+              <img src="techwix images/font 3.png" alt="" />
+            </div>
+            <div class="service-content">
+              <h3 class="title col-md-8">Cloud managed services</h3>
+              <p>
+                Accelerate innovation with world-class tech teams We’ll match
+                you to an entire remote team of incredible freelance talent.
+              </p>
+              <div class="read-more"><i class="fas fa-plus"></i> Read More</div>
+            </div>
+          </div>
+          <!-- Service Item End -->
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <!-- Service Item Start -->
+          <div class="service-item-03">
+            <div class="service-img">
+              <img src="techwix images/New Project.png" alt="" />
+            </div>
+            <div class="service-content">
+              <h3 class="title col-md-6">Blockchain technology</h3>
+              <p>
+                Accelerate innovation with world-class tech teams We’ll match
+                you to an entire remote team of incredible freelance talent.
+              </p>
+              <div class="read-more"><i class="fas fa-plus"></i> Read More</div>
+            </div>
+          </div>
+          <!-- Service Item End -->
+        </div>
+      </div>
+    </div>
+    <!--top main card ends here -->
+  </body>
+</html>
